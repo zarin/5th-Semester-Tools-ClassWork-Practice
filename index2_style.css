@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.form-container{
+    width:450px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.First-Number{
+    padding: 10px 25px;
+    margin-left:15px;  
+}
+.Result{
+    position:relative;
+    padding: 10px 25px;
+    margin-left:15px;
+}
+.Second-Number{
+    padding: 10px 25px;
+    margin-left:15px; 
+    margin-top: 10px; 
+}
+.button-box{
+    width: 550px;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+.toggle-btn1{
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    background-color:darkgoldenrod ;
+    color:aliceblue;
+}
+.toggle-btn2{
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    margin-left:25px;
+    background-color:gold ;
+    color:aliceblue;
+}
+.toggle-btn3{
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    margin-left: 25px;
+    background-color:orange ;
+    color:aliceblue;
+}
+.toggle-btn4{
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    margin-left: 25px;
+    background-color:royalblue;
+    color:aliceblue;
+}
+.toggle-btn5{
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    margin-top:10px;
+    background-color:firebrick;
+    color:aliceblue;
+}

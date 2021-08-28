@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    padding:10px 50%;
+    background-color: black;
+    margin-top:10px;
+    color:white;
+}
+.menu-container{
+    background-color:gold;
+    color:white;
+    height:20px;
+    padding: 10px 25px;
+}
+.box{
+    background:white;
+    display: flex;
+}
+.left{
+    height:200px;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    padding-left:10%;
+    padding-top:10%;
+}
+.middle{
+    height:200px;
+    width: 40%;
+    background-color:white;
+    color:red;
+    padding-left:15%;
+    padding-top:10%;
+}
+.right{
+    height:200px;
+    width: 30%;
+    background-color:blue;
+    color: white;
+    padding-left:10%;
+    padding-top:10%;
+}
+.footer{
+    padding:35px 50%;
+    background-color:red;
+    color:white;
+}
