@@ -4,10 +4,10 @@
                     <table>
                         <tr>
                             <td>First Number</td>
-                            <td><input name="First Number" id="First Number" placeholder="Enter Number"></td>
+                            <td><input name="FirstNumber" id="FirstNumber" placeholder="Enter Number"></td>
                         <tr>
                             <td>Second Number</td>
-                            <td><input name="Second Number" id="Second Number" placeholder="Enter Number"></td>
+                            <td><input name="SecondNumber" id="SecondNumber" placeholder="Enter Number"></td>
                         </tr>
                         <td>Result</td>
                         <td><input name="result" id="result" placeholder="Result"></td>
@@ -22,11 +22,14 @@
                            </td>
                        </tr>
                         </table>
+                    </body>
+                </head>
+            </html>
                      <script>
                          function jsfunction()
                          {
-                             var firstNumber=document.getElementById('firstNumber').value;
-                             var secondNumber=document.getElementById('secondNumber').value;
+                             var firstNumber=document.getElementById('FirstNumber').value;
+                             var secondNumber=document.getElementById('SecondNumber').value;
                             //alert(firstNumber);
                             //alert("Hello World");
                             //var firstNumber=10;
@@ -43,12 +46,8 @@
                              const dataArray=["Karim","Rahim","John"];
                              for (let index=0;index<dataArray.length;index++)
                              {
-                                 document.write(dataArray[index]+<br>);
+                                 document.write(dataArray[index]+'<br>');
                              }
-
-
                          }
                      </script>
-                     </body>
-    </head>
-</html>
+                  
