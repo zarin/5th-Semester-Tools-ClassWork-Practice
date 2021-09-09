@@ -1,5 +1,7 @@
 <html>
     <head>
+        <title>Title</title>
+        <script src="jquery_3.6.js" type="text/javascript"></script>
         <body>
                     <table>
                         <tr>
@@ -28,17 +30,19 @@
                      <script>
                          function jsfunction()
                          {
-                             var firstNumber=document.getElementById('FirstNumber').value;
-                             var secondNumber=document.getElementById('SecondNumber').value;
-                            //alert(firstNumber);
+                            //var FirstNumber=document.getElementById('FirstNumber').value;
+                            //var SecondNumber=document.getElementById('SecondNumber').value;
+                            var firstNumber=$('#FirstNumber').val();
+                            console.log(FirstNumber);
+                            //alert(FirstNumber);
                             //alert("Hello World");
-                            //var firstNumber=10;
-                            //var secondNumber=20;
-                            //alert("The sum is="+(Number(firstNumber)+Number(secondNumber)));
-                            var result=firstNumber*secondNumber;
+                            //var FirstNumber=10;
+                            //var SecondNumber=20;
+                            //alert("The sum is="+(Number(FirstNumber)+Number(SecondNumber)));
+                            var result=FirstNumber*SecondNumber;
                             document.getElementById('result').value=result;
                             document.getElementById('resultTd').innerHTML=result;
-                             //document.write("The sum is="+(Number(firstNumber)+Number(secondNumber)));
+                             //document.write("The sum is="+(Number(FirstNumber)+Number(SecondNumber)));
                              //var getfromuser=prompt("Enter a numeric value");
                              //alert(getfromuser);
                              document.getElementById('submitButton').style.backgroundColor="blue";
