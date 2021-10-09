@@ -2,7 +2,10 @@
 <?php
 session_start();
 ?>
-User name:(<?php echo $_SESSION['studentName']?>)<br>
+<?
+$studentName=$_POST['studentName'];
+?><br>
+
 <a href="signout.php">
     Sign Out
 </a>

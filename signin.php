@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<form method="post" action="save.php">
+<form method="post" action="store.php">
     <table>
         <tr>
             <td>Name</td>
@@ -23,4 +23,8 @@ include 'header.php';
         </tr>
     </table>
 </form>
+
+<?php
+include 'footer.php';
+?>
 
