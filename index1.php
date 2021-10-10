@@ -6,7 +6,7 @@
                 <a href="contact.html">Contact</a>  
             </div>
             <div class="banner-container">
-                <img src="C:\Users\HP\Desktop\Tools & Technologies for Internet Programming\banner.jpg">
+                <img src="C:\xampp\htdocs\Tools & Technologies for Internet Programming\banner.jpg">
             </div>
             <div class="paragraph-container">
             <p>Hello World.We are students of 5BF.</p>
@@ -44,15 +44,15 @@
             </table>
             </div>
             <div class="form-container">
-                <form action="data_save.html" method="post">
+                <form action="store.php" method="post">
                     <table>
                         <tr>
                             <td>Student Name</td>
-                            <td><input name="StudentName" required id="StudentName" type="text" placeholder="Enter Student Name"></td>
+                            <td><input name="studentName" required id="studentName" type="text" placeholder="Enter Student Name"></td>
                         </tr>
                         <tr>
                             <td>Student ID</td>
-                            <td><input name="StudentId" required id="StudentName" type="text" placeholder="Enter Student ID"></td>
+                            <td><input name="studentId" required id="studentId" type="text" placeholder="Enter Student ID"></td>
                         </tr>
                         <tr>
                             <td>Gender</td>
