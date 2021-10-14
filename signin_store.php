@@ -9,10 +9,10 @@ getData();/*Function is being called*/
 function getData()
 {
     $studentName = $_POST['studentName'];
-    $studentId = $_POST['studentId'];
+    $studentId = $_POST['StudentId'];
 
 
-    include "database_connection.php";
+    include "signin_database_connection.php";
 
     $insert_query="INSERT INTO students(studentName,StudentId) values('$studentName','$studentId')";
     $insert_query=mysqli_query($connection,$insert_query);

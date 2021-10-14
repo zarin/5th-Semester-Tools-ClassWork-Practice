@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<form method="post" action="store.php">
+<form method="post" action="signin_store.php">
     <table>
         <tr>
             <td>Name</td>
@@ -12,7 +12,7 @@ include 'header.php';
         <tr>
             <td>Roll</td>
             <td>
-                <input name="roll" placeholder="Enter roll" id="roll">
+                <input name="StudentId" placeholder="Enter roll" id="StudentId">
             </td>
         </tr>
         <tr>
