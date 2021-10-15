@@ -27,30 +27,7 @@ function getData()
     {
         echo 'Data has not been saved successfully';
     }
-    ?>
-    <table border="1" style="border-collapse: collapse">
-    <tr>
-            <td>Student Name</td>
-            <td>Student Id</td>
-            <td>Department</td>
-            <td>Semester</td>
-            <td>Section</td>
-            <td>Phone Number</td>
-            <td>Mail Id</td>
-            <td>Gender</td>
-        </tr>
-        <tr>
-            <td><?php echo $studentName ?></td>
-            <td><?php echo $studentId ?></td>
-            <td><?php echo $Department ?></td>
-            <td><?php echo $Semester ?></td>
-            <td><?php echo $Section ?></td>
-            <td><?php echo $phoneNumber ?></td>
-            <td><?php echo $mail ?></td>
-            <td><?php echo $gender ?></td>
-        </tr>
-    </table>
-    <?php
 }
-
+header("location:form.php");
 ?>
+    
