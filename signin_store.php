@@ -25,24 +25,7 @@ function getData()
     {
         echo 'Data has not been saved successfully';
     }
-
-
-    // if ($studentName == 'iiuc' && $roll == '24434') {
-    //     $_SESSION['studentName']=$studentName;
-    //     header('location:dashboard.php');/*redirect*/
-    // }
-    ?>
-    <table border="1" style="border-collapse: collapse">
-        <tr>
-            <td>Student Name</td>
-            <td>Student Id</td>
-        </tr>
-        <tr>
-            <td><?php echo $studentName ?></td>
-            <td><?php echo $studentId ?></td>
-        </tr>
-    </table>
-    <?php
+    
 }
-
+header("location:signin.php");
 ?>
