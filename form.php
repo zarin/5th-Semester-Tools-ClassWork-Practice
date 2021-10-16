@@ -1,12 +1,13 @@
 <html>
     <head>
+<link rel="stylesheet"href="form_style.css">
 <link href="bootstrap.min.css" rel="stylesheet">
 <script src="bootstrap.bundle.min.js"></script>
 </head>
-    <body class="bg-secondary">
+    <body class="info">
         <div class="container-fluid">
         <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 my-2">
           <form action="form_data_save.php" method="post">
             <div class="card">
                 <div class="card-header">
@@ -62,7 +63,7 @@
 </div>
 </form>
 </div>
-<div class="col-lg-9 col-md-9 col-sm-18 my-3" style="height:200px;">
+<div class="col-lg-9 col-md-9 col-sm-18 my-2" style="height:100px;">
 <table class="table table-bordered table-striped table-hover bg-white">
 <tr>
             <td>ID</td>
