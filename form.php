@@ -7,7 +7,7 @@
     <body class="info">
         <div class="container-fluid">
         <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+        <div class="col-lg-4 col-md-4 col-sm-8 my-3">
           <form action="form_data_save.php" method="post">
             <div class="card">
                 <div class="card-header">
@@ -26,18 +26,10 @@
                     <label>Department</label>
                     <input class="form-control" type="text" id="Department" name="Department"placeholder="Enter the Department">
 </div>
-<div class="form-group">
+ <div class="form-group">
                     <label>Semester</label>
                     <input class="form-control" type="text" id="Semester" name="Semester"placeholder="Enter the Semester">
-</div>
-<div class="form-group">
-                    <label>Section</label>
-                    <input class="form-control" type="text" id="Section" name="Section"placeholder="Enter the Section">
-</div>
-<div class="form-group">
-                    <label>Phone Number</label>
-                    <input class="form-control" type="text" id="phoneNumber" name="phoneNumber"placeholder="Enter the Phone Number">
-</div>
+ </div>
 <div class="form-group">
                     <label>Mail Id</label>
                     <input class="form-control" type="text" id="mail" name="mail"placeholder="Enter the Mail ID">
@@ -63,7 +55,7 @@
 </div>
 </form>
 </div>
-<div class="col-lg-9 col-md-9 col-sm-18 my-2" style="height:100px;">
+<div class="col-lg-8 col-md-8 col-sm-16 my-3">
 <table class="table table-bordered table-striped table-hover bg-white">
 <tr>
             <td>ID</td>
@@ -71,8 +63,6 @@
             <td>Student ID</td>
             <td>Department</td>
             <td>Semester</td>
-            <td>Section</td>
-            <td>Phone Number</td>
             <td>Mail Id</td>
             <td>Gender</td>
             <td>Delete</td>
@@ -95,8 +85,6 @@
             <td><?php echo $row_array['studentId'] ?> </td>
             <td><?php echo $row_array['Department'] ?> </td>
             <td><?php echo $row_array['Semester'] ?> </td>
-            <td><?php echo $row_array['Section'] ?> </td>
-            <td><?php echo $row_array['phoneNumber'] ?> </td>
             <td><?php echo $row_array['mail'] ?> </td>
             <td><?php echo $row_array['gender'] ?> </td>
             <td>
