@@ -17,7 +17,7 @@
                     <label>Student Name</label>
                     <input class="form-control" type="text" id="studentName" name="studentName">
 </div>
-<div class="form-group">
+               <div class="form-group">
                     <label>Student ID</label>
                     <input class="form-control" type="text" id="StudentId" name="StudentId">
 </div>
