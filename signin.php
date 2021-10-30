@@ -57,7 +57,7 @@
             <td>
                 <form action="signin_delete.php" method="post">
                     <input hidden name="id"value="<?php echo $row_array['Id']?>">
-                    <input onclick="confirm('Do you want to delete?')" class="btn btn-danger" type="submit"value="Delete">
+                    <input onclick="return confirm('Do you want to delete?')" class="btn btn-danger" type="submit"value="Delete">
          </form>
             <td><a class="btn btn-success" href="edit.php?id=<?php echo $row_array['Id']?>">Edit</a>
         </tr>  
